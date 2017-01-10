@@ -1,0 +1,32 @@
+{
+  "gitbook": ">=3.2.0",
+  "description": "微服务资料收集",
+  "language": "zh-hans",
+  "author": "Sky Ao <aoxiaojian@gmail.com>",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "Sky@Gitbook": "https://skyao.gitbooks.io"
+    }
+  },
+  "structure" : {
+        "readme" : "README_gitbook.md"
+    },
+  "plugins": [
+    "toggle-chapters",
+    "edit-link", 
+    "etoc",
+    "back-to-top-button",
+    "tags"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://github.com/skyao/microservice-collection/edit/master",
+        "label": "Edit"
+    }
+  },
+  "title": "微服务资料收集",
+  "variables": {
+  }
+}
